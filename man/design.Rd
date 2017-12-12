@@ -18,7 +18,9 @@
 and fitting Negative Binomial GLMs}
 }
 \description{
-Design Formula Accessor
+The design holds the R \code{formula} which expresses how the
+counts depend on the variables in \code{colData}.
+See \code{\link{DESeqDataSet}} for details.
 }
 \examples{
 load(system.file(

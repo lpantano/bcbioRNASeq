@@ -4,15 +4,10 @@
 \name{reexports}
 \alias{reexports}
 \alias{ggplot}
-\alias{reexports}
 \alias{glimpse}
-\alias{reexports}
 \alias{inferno}
-\alias{reexports}
 \alias{scale_color_viridis}
-\alias{reexports}
 \alias{scale_fill_viridis}
-\alias{reexports}
 \alias{viridis}
 \title{Objects exported from other packages}
 \keyword{internal}

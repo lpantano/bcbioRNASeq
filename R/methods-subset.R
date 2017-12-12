@@ -117,8 +117,8 @@ NULL
     if (isTRUE(skipNorm) | nrow(colData) > transformationLimit) {
         message("Skipping re-normalization, just selecting samples and genes")
         dds <- estimateSizeFactors(dds)
-        vst <- NULL
-        rlog <- NULL
+        vst <- txi[["abundance"]]
+        rlog <- txi[["abundance"]]
     } else {
         # DESeq2 will warn about empty design formula, if set
         dds <- suppressWarnings(DESeq(dds))
